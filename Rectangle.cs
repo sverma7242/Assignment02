@@ -29,18 +29,18 @@ namespace Assignment02
         {
             return length;
         }
-        public int SetLength(int length)
+        public int SetLength(int newl)
         {
-            length = length < 0 ? 0 : length;
+            this.length = newl;
             return length;
         }
         public int GetWidth()
         {
             return width;
         }
-        public int SetWidth(int width)
+        public int SetWidth(int neww)
         {
-            width = width < 0 ? 0 : width;
+            width = neww;
             return width;
         }
         public int GetPerimeter()
