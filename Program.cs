@@ -107,9 +107,6 @@ namespace Assignment02
 
                 } while (option != 7);
 
-
-
-
             }
 
             catch (Exception ex)
@@ -118,10 +115,7 @@ namespace Assignment02
 
             }
             System.Console.ReadLine();
-
-
-
-
+            
         }
     }
 }
